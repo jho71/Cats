@@ -1,0 +1,23 @@
+.catImg, .catButton{
+    display:block;
+    margin:auto ;
+    margin-bottom: 2rem;
+}
+.catImg{
+    width: 50%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(#ff8a00, #e52e71); 
+    padding: 3px;
+}
+.catButton{
+    background-image: linear-gradient(#ff8a00, #e52e71);      
+      border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 2rem;
+        
+}

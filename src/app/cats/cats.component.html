@@ -1,0 +1,11 @@
+<br>
+<br>
+<br>
+<br>
+<button class="catButton" (click)="callCats();">Click for cats 😸</button>
+<div *ngIf="catList;"  class="container">
+    <div   *ngFor="let t of catList"class="row">
+      
+        <img class="catImg" src="https://cataas.com/cat/{{t}}">
+  
+  </div>
